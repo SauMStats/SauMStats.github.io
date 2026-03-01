@@ -20,7 +20,7 @@ export default function Bio() {
           {/* Profile Image */}
           <div className="md:col-span-1">
             <img 
-              src="./PhotoForWebsite.jpg" 
+              src="./Prof_Image11_no_bg.png" 
               alt="Saurabh Mishra" 
               className="w-full rounded-lg shadow-lg object-cover"
               data-testid="img-bio-profile"
