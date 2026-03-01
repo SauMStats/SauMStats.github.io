@@ -18,22 +18,22 @@ export default function Bio() {
 
         <div className="grid md:grid-cols-3 gap-12">
           {/* Profile Image */}
-          <div className="md:col-span-1">
+          <div className="md:col-span-1 mb-6 md:mb-0 flex flex-col items-center">
             <img 
               src="./Prof_Image11_no_bg.png" 
               alt="Saurabh Mishra" 
-              className="w-full rounded-lg shadow-lg object-cover"
+              className="w-48 md:w-56 rounded-lg shadow-md object-cover mx-auto md:mx-0"
               data-testid="img-bio-profile"
             />
             
             {/* CV Download Button */}
             <div className="mt-4 text-center">
               <a 
-                href="https://drive.google.com/file/d/1gtd4-OPEgtpewedvWgy5w-ON874dJY4B/view" 
-                className="inline-flex items-center px-4 py-2 bg-academic-blue text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-sm"
+                href="https://drive.google.com/file/d/1t7nO_QstDtx6oqECeS6pbrfT-PowkZOY/view?usp=sharing" 
+                className="inline-flex items-center gap-1 px-3 py-1 text-xs font-medium rounded-md bg-gradient-to-r from-blue-600 to-blue-500 text-white shadow-sm hover:from-blue-700 hover:to-blue-600 transition-all duration-200"
                 data-testid="button-download-cv"
               >
-                <Download className="w-3 h-3 mr-1" />
+                <Download className="w-2 h-3" />
                 CV
               </a>
             </div>
