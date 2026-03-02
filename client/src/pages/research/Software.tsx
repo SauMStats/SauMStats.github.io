@@ -10,7 +10,8 @@ export default function Software() {
             Software & Code
           </h1>
           <p className="text-xl text-academic-gray dark:text-gray-400">
-            Open-source software, R packages, and code repositories for statistical genetics
+            Open-source software, R packages, and code repositories
+             {/* for statistical genetics */}
           </p>
         </div>
 
@@ -36,8 +37,8 @@ export default function Software() {
               </div>
               
               <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                Statistical methods for testing gene-environment interactions in genome-wide association studiesusing
-                 multivariate joint testing of main genetic and GxE effects.
+                Statistical methods for testing gene-environment interactions in genome-wide association studies using
+                 multi-phenotype joint testing of main genetic and GxE effects.
               </p>
               
               <div className="flex flex-wrap gap-2 mb-4">
@@ -92,7 +93,7 @@ export default function Software() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-3">
-                Installing R Packages
+                Installing MvGGE
               </h3>
               <pre className="bg-gray-100 border border-gray-300 text-gray-900 p-4 rounded-lg overflow-x-auto text-sm leading-relaxed font-mono">
                 <code>{`# Install remotes if not already installed
@@ -101,7 +102,7 @@ if (!require("remotes")) install.packages("remotes")
 remotes::install_github("SauMStats/MvGGE")
 
 # Load the package
-library(GxEtest)`}</code>
+library(MvGGE)`}</code>
               </pre>
             </div>
 

@@ -68,4 +68,5 @@ def hello():
 ## Video support test (renderer shortens) -->
 ![Video](/assets/Animations/monte_carlo_stock_simulation.mp4 "Figure 1")
 
-That's it! This post should appear on your blog automatically.
+That's it! 
+<!-- This post should appear on your blog automatically. -->
